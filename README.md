@@ -4,7 +4,7 @@ Environmental data station build, using a ESP8266 NodeMCUV3, and the following s
    
    2. GY-21-Si7021  (I2C) for measuring outdoor temperature (°C) & humidity (%RH).
    
-   3. CJMCU-811 CS811 (I2C) sensor measuring eCO2 (the equivalent CO2 *400ppm to 8192ppm*)& TVOC (Total Volatile Organic Compound *0ppb to       1187ppb*).
+   3. CJMCU-811 CS811 (I2C) sensor measuring eCO2 (the equivalent CO2 *400ppm to 8192ppm*) & TVOC (Total Volatile Organic Compound *0ppb         to 1187ppb*).
       CCS811 receives temperature and humidity readings from BME280 for compensation algorithm.
       New CCS811 sensors require 48h-burn in. Once burned in a sensor requires 20 minutes of run-in before readings are considered good.
       **Connect nWAKE sensor pin directly to D6, so the CCS811 will wake up after SLEEP mode** (requires a 5th wire doing to CCS811).
