@@ -1,4 +1,4 @@
-Environmental data station build, using a ESP8266 NodeMCUV3, and the following sensors:
+Home environmental data station build, using a ESP8266 NodeMCUV3, and the following sensors:
   
    1. GY-BME280.3.3 (I2C) for measuring indoor temperature (°C), humidity (%RH), & atmosperic pressure (hPa).
    
