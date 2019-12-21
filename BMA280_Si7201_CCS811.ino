@@ -29,7 +29,7 @@
 #include "Adafruit_CCS811.h"
 
 const char* host = "api.thingspeak.com";
-const char* THINGSPEAK_API_KEY = "QRI74I18VUQRQUXF";
+const char* THINGSPEAK_API_KEY = "YOUR_API_KEY";
 
  // DS18B20 Settings
 #define DS18B20 2     //DS18B20 is connected to D4-->GPIO2-->Pin2
