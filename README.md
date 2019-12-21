@@ -12,7 +12,5 @@ Environmental data station build, using a ESP8266 NodeMCUV3, and the following s
    4. DS18B20 attached at a heating radiator metal tube for measuring the heating water temp, in order to register the heat cycles.
      
    All data are transmited to a ThinkSpeak channel every 1 minute.
-   ESP8266 is forced into deep sleep for 45" during the 1 min cycle.
-   GPIO 16 (D0) must be connected to reset (RST) pin so the ESP8266 is able to wake up from deep sleep.
    Keep I2C sensor wires as sort as possible. Use high quality wires with as low capacitance as possible.
    Build by Konstantinos Deliopoulos @ Dec 2019.
